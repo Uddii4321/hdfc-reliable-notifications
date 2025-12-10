@@ -1,0 +1,31 @@
+[
+  {
+    "id": "inbox-1765269671618",
+    "eventType": "Fraud Alert",
+    "message": "Fraud Alert delivered to Secure Inbox (fallback)",
+    "timestamp": "2025-12-09T08:41:11.618Z",
+    "meta": {
+      "reason": "fallback-to-inbox",
+      "originalChannel": "Email"
+    }
+  },
+  {
+    "id": "inbox-1765269664092",
+    "eventType": "Beneficiary Added Alert",
+    "message": "Beneficiary Added Alert delivered to Secure Inbox (fallback)",
+    "timestamp": "2025-12-09T08:41:04.092Z",
+    "meta": {
+      "reason": "fallback-to-inbox",
+      "originalChannel": "Email"
+    }
+  },
+  {
+    "id": "inbox-1765098771526",
+    "eventType": "Monthly Statement",
+    "message": "Monthly Statement delivered to secure inbox (fallback)",
+    "timestamp": "2025-12-07T09:12:51.526Z",
+    "meta": {
+      "originalChannel": "Email"
+    }
+  }
+]

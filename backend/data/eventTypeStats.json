@@ -1,0 +1,72 @@
+{
+  "Beneficiary Added Alert": {
+    "Event_Type": "Beneficiary Added Alert",
+    "Event_Count": 107,
+    "Retry_Triggered": 55,
+    "Event_Percentage": 10.7,
+    "Retry_Percentage": 51.4
+  },
+  "Credit Card Bill Reminder": {
+    "Event_Type": "Credit Card Bill Reminder",
+    "Event_Count": 98,
+    "Retry_Triggered": 58,
+    "Event_Percentage": 9.8,
+    "Retry_Percentage": 59.18
+  },
+  "Fraud Alert": {
+    "Event_Type": "Fraud Alert",
+    "Event_Count": 103,
+    "Retry_Triggered": 46,
+    "Event_Percentage": 10.3,
+    "Retry_Percentage": 44.66
+  },
+  "KYC Reminder": {
+    "Event_Type": "KYC Reminder",
+    "Event_Count": 117,
+    "Retry_Triggered": 67,
+    "Event_Percentage": 11.7,
+    "Retry_Percentage": 57.26
+  },
+  "Login OTP": {
+    "Event_Type": "Login OTP",
+    "Event_Count": 89,
+    "Retry_Triggered": 47,
+    "Event_Percentage": 8.9,
+    "Retry_Percentage": 52.81
+  },
+  "Low Balance Alert": {
+    "Event_Type": "Low Balance Alert",
+    "Event_Count": 88,
+    "Retry_Triggered": 44,
+    "Event_Percentage": 8.8,
+    "Retry_Percentage": 50.0
+  },
+  "Monthly Statement": {
+    "Event_Type": "Monthly Statement",
+    "Event_Count": 109,
+    "Retry_Triggered": 64,
+    "Event_Percentage": 10.9,
+    "Retry_Percentage": 58.72
+  },
+  "Payment Confirmation": {
+    "Event_Type": "Payment Confirmation",
+    "Event_Count": 95,
+    "Retry_Triggered": 45,
+    "Event_Percentage": 9.5,
+    "Retry_Percentage": 47.37
+  },
+  "Reward Points Update": {
+    "Event_Type": "Reward Points Update",
+    "Event_Count": 95,
+    "Retry_Triggered": 51,
+    "Event_Percentage": 9.5,
+    "Retry_Percentage": 53.68
+  },
+  "Transaction OTP": {
+    "Event_Type": "Transaction OTP",
+    "Event_Count": 99,
+    "Retry_Triggered": 43,
+    "Event_Percentage": 9.9,
+    "Retry_Percentage": 43.43
+  }
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trusted Notifications Demo</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+</head>
+
+<body class="bg-light">
+
+<div class="container py-4">
+
+  <h2 class="mb-3">Trusted Notifications</h2>
+
+  
+  <div class="btn-group mb-4">
+    <button class="btn btn-primary" onclick="showTab('sendTab')">Send Notification</button>
+    <button class="btn btn-secondary" onclick="showTab('timelineTab')">Attempts Timeline</button>
+    <button class="btn btn-secondary" onclick="showTab('inboxTab')">Secure Inbox</button>
+    <button class="btn btn-secondary" onclick="showTab('rawTab')">Raw Response</button>
+  </div>
+
+  
+  <div id="sendTab" class="tab-section">
+
+    <div class="card p-3 mb-4">
+      <h5>Select Notification to Send</h5>
+
+      <div class="d-flex align-items-center">
+        <select id="eventType" class="form-control w-auto mr-2">
+  <option value="beneficiary added alert">Beneficiary Added Alert</option>
+  <option value="credit card bill reminder">Credit Card Bill Reminder</option>
+  <option value="fraud alert">Fraud Alert</option>
+  <option value="kyc reminder">KYC Reminder</option>
+  <option value="login otp">Login OTP</option>
+  <option value="low balance alert">Low Balance Alert</option>
+  <option value="monthly statement">Monthly Statement</option>
+  <option value="payment confirmation">Payment Confirmation</option>
+  <option value="reward points update">Reward Points Update</option>
+  <option value="transaction otp">Transaction OTP</option>
+</select>
+
+
+        <button class="btn btn-success" onclick="sendFromDropdown()">Send</button>
+      </div>
+    </div>
+
+    <div class="card p-3">
+      <h5>Event Metadata</h5>
+      <p><strong>Primary Channel:</strong> <span id="metaChannel">-</span></p>
+      <p><strong>Retry Score:</strong> <span id="metaScore">-</span></p>
+      <p><strong>Retry %:</strong> <span id="metaProb">-</span></p>
+    </div>
+
+  </div>
+
+  
+  <div id="timelineTab" class="tab-section" style="display:none;">
+    <div class="card p-3">
+      <h5>Attempts Timeline</h5>
+      <ul id="timelineList" class="list-group" style="height:350px; overflow:auto;"></ul>
+    </div>
+  </div>
+
+  
+  <div id="inboxTab" class="tab-section" style="display:none;">
+    <div class="card p-3">
+      <h5>Secure Inbox</h5>
+      <ul id="inbox" class="list-group" style="height:350px; overflow:auto;"></ul>
+    </div>
+  </div>
+
+
+  <div id="rawTab" class="tab-section" style="display:none;">
+    <div class="card p-3">
+      <h5>Raw Response</h5>
+      <pre id="rawResponse" style="height:350px; overflow:auto; background:#f8f9fa; padding:10px;"></pre>
+    </div>
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
